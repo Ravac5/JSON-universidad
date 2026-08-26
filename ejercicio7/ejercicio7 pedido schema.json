@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "idPedido": {
+    "type": "string"
+  },
+  "fecha": {
+    "type": "string",
+    "format": "date-time"
+  },
+  "estado": {
+    "type": "string",
+    "enum": ["pendiente", "pagado", "aceptado", "enviado", "entregado"]
+  },
+  "total": {
+    "type": "number",
+    "minimum": 0
+  },
+  "cliente": {
+    "type": "object",
+    "properties": {
+      "nombre": {"type": "string"},
+      "apellido": {"type": "apellido"},
+      "telefono": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "correo electronico": {"type": "string"},
+      "dni": {"type": "string"},
+      "fecha de nacimiento": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "direccion": {
+        "type": "object",
+        "properties": {
+          "pais": {"type": "string"},
+          "provincia": {"type": "string"},
+          "ciudad": {"type": "string"},
+          "calle": {"type": "string"},
+          "numero": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "codigo postal": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "requierd": ["pais", "provincia", "ciudad", "calle", "codigo postal"]
+        }
+      },
+      "required": ["nombre", "apellido", "telefono", "correo electronico", "dni", "fecha de nacimiento", "direccion"]
+    }
+  },
+
+  "detalle" : {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "idPro": {"type": "string"},
+        "cantidad": {
+          "type": "number",
+          "minimum": 0
+        },
+        "precio unitario": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

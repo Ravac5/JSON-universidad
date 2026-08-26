@@ -1,0 +1,10 @@
+{
+  "reseñas": [
+    {
+      "id": "r01",
+      "usuario": "Manel M.",
+      "reseña escrita": "Muy buena pelicula,recomendable gran banda sonora",
+      "puntuacion": 4.0
+    }
+  ]
+}

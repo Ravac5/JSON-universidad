@@ -1,0 +1,30 @@
+{
+  "idPedido": "pe01",
+  "fecha": "2026-08-24",
+  "estado": "pendiente",
+  "total": 46800,
+  "cliente": {
+    "id": "c01",
+    "nombre": "Pablo",
+    "apellido": "Contreras",
+    "telefono": ["2634309873"],
+    "correo electronico": "pablitocont@gmail.com",
+    "dni": "46970958",
+    "fecha de nacimiento": "2005-04-06",
+    "direccion" : {
+      "pais": "Argentina",
+      "provincia": "Mendoza",
+      "ciudad": "San Martin",
+      "calle": "San Martin",
+      "numero": 903,
+      "codigo postal": 5570
+    }
+  },
+  "detalle": [
+    {
+      "idPro": "pr01",
+      "cantidad": 3,
+      "precio unitario": 15600
+    }
+  ]
+}

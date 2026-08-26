@@ -1,0 +1,21 @@
+{
+  "peliculas": [
+    {
+      "id": "p01",
+      "nombre": "la la land",
+      "año": 2016,
+      "genero": "musical",
+      "director": "Damien Chazelle",
+      "reseñas": [
+        { "usuario": "Manel M.",
+          "reseña escrita": "Muy buena pelicula,recomendable gran banda sonora",
+          "puntuacion": 4.0
+        },
+        { "usuario": "cronos26",
+          "reseña escrita": "Pues nada, La verdad es que es bonita, aunque como musical, es un poco flojo.",
+          "puntuacion": 3.0
+        }
+      ]
+    }
+  ]
+}

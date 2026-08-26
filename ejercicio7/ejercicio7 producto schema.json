@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "idPro": {
+    "type": "string"
+  },
+  "nombre": {
+    "type": "string"
+  },
+  "precio": {
+    "type": "number",
+    "minimum": 0
+  },
+  "stock": {
+    "type": "number",
+    "minimum": 0
+  },
+  "atributos": {
+    "type": "object",
+    "properties": {
+      "material": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "color": {"type": "string"},
+      "pesokg": {
+        "type": "number",
+        "minimum": 0
+      },
+      "dimensiones": {
+        "type": "object",
+        "properties": {
+          "largocm": {
+            "type": "number",
+            "minimum": 0
+          },
+          "altocm": {
+            "type": "number",
+            "minimum": 0
+          },
+          "anchocm": {
+            "type": "number",
+            "minimum": 0
+          }
+        }
+      }
+    }
+  }
+}

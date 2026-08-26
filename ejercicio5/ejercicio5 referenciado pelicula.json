@@ -1,0 +1,12 @@
+{
+  "peliculas": [
+    {
+      "id": "p01",
+      "nombre": "la la land",
+      "año": 2016,
+      "genero": "musical",
+      "director": "Damien Chazelle",
+      "reseñaID": "r01"
+    }
+  ]
+}

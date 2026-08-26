@@ -1,0 +1,18 @@
+{
+  "nombre": "Agustin",
+  "apellido": "Morales",
+  "edad": 20,
+  "activo": true,
+  "direccion": {
+    "provincia": "Mendoza",
+    "ciudad": "San Martin",
+    "calle": "Avenida Mitre",
+    "numero": 178
+  },
+  "informacion personal": {
+    "telefono": "2634090833",
+    "correo": "moralesagustin@gmail.com"
+  },
+  "materias en curso": ["Base de datos", "Sistemas Operativos", "Programacion"],
+  "materias previas": null
+}

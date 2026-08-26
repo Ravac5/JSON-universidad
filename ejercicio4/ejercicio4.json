@@ -1,0 +1,16 @@
+{
+  "titulo": "El talisman",
+  "año": 2005,
+  "autores": [
+    {"nombre": "Stephen King", "pais": "Estados Unidos"},
+    {"nombre": "Peter Straub", "pais": "Estados Unidos"}
+  ],
+  "generos": [
+    "novela",
+    "terror",
+    "ciencia ficcion",
+    "literatura fantastica",
+    "fantasia oscura",
+    "alta fantasia"
+  ]
+}

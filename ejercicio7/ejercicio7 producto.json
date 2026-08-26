@@ -1,0 +1,16 @@
+{
+  "idPro": "pr01",
+  "nombre": "mesa para sala",
+  "precio": 15600,
+  "stock": 10,
+  "atributos": {
+    "material": ["madera", "hierro"],
+    "color": "marron",
+    "pesokg": 20.5,
+    "dimensiones": {
+      "largocm": 120.5,
+      "altocm": 70.5,
+      "ancho": 50.25
+    }
+  }
+}
