@@ -1,4 +1,4 @@
-![JSON invalido](https://imgur.com/a/YLx3swP)
+![JSON invalido](https://i.imgur.com/iyMHsI9.png)
 
 ## **ESPAÑOL**
 En este json encontramos varios errores, empezando por que la clave nombre se encuentra sin doble comillas y su valor string se encuentra con comillas simples en vez de dobles.
