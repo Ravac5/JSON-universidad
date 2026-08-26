@@ -9,3 +9,7 @@ Validadores de json utilizados:
 ## **ENGLISH**
 
 This repository is simply a university homework presentation, each exercise has its own README.md with the answers given by the instructions. 
+
+JSON validators used:
+* [JSON](https://jsonlint.com/)
+* [JSON Schema](https://www.jsonschemavalidator.net/)
