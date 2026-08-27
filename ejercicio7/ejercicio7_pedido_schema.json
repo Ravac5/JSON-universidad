@@ -26,9 +26,9 @@
           "type": "string"
         }
       },
-      "correo electronico": {"type": "string"},
+      "emailAddress": {"type": "string"},
       "dni": {"type": "string"},
-      "fecha de nacimiento": {
+      "birthDate": {
         "type": "string",
         "format": "date-time"
       },
@@ -43,7 +43,7 @@
             "type": "integer",
             "minimum": 0
           },
-          "codigo postal": {
+          "codigoPostal": {
             "type": "integer",
             "minimum": 0
           },
@@ -64,7 +64,7 @@
           "type": "number",
           "minimum": 0
         },
-        "precio unitario": {
+        "precioUnitario": {
           "type": "number",
           "minimum": 0
         }
