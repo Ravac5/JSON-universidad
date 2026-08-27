@@ -9,10 +9,10 @@
     "calle": "San Martin",
     "numero": 178
   },
-  "informacion personal": {
+  "informacionPersonal": {
     "telefono": "2634090833",
     "correo": "moralesagustin@gmail.com"
   },
-  "materias en curso": ["Base de datos", "Sistemas Operativos", "Programacion"],
-  "materias previas": null
+  "materiasEnCurso": ["Base de datos", "Sistemas Operativos", "Programacion"],
+  "materiasPrevias": null
 }
