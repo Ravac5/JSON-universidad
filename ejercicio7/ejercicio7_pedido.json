@@ -8,9 +8,9 @@
     "nombre": "Pablo",
     "apellido": "Contreras",
     "telefono": ["2634309873"],
-    "correo electronico": "pablitocont@gmail.com",
+    "emailAddress": "pablitocont@gmail.com",
     "dni": "46970958",
-    "fecha de nacimiento": "2005-04-06",
+    "birthDate": "2005-04-06",
     "direccion" : {
       "pais": "Argentina",
       "provincia": "Mendoza",
