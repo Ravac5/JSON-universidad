@@ -3,13 +3,13 @@
  "cliente": {
    "nombre": "Matias",
    "apellido": "Rodriguez",
-   "correo electronico": "rodrimati17@gmail.com",
+   "emailAddress": "rodrimati17@gmail.com",
    "telefono": ["2634986905"]
  },
  "lista": [
-   {"producto": "remera", "cantidad": 1, "precio unitario": 19560},
-   {"producto": "pantalon", "cantidad": 1, "precio unitario": 12450},
-   {"producto": "medias", "cantidad": 4, "precio unitario": 850}
+   {"producto": "remera", "cantidad": 1, "precioUnitario": 19560},
+   {"producto": "pantalon", "cantidad": 1, "precioUnitario": 12450},
+   {"producto": "medias", "cantidad": 4, "precioUnitario": 850}
  ],
  "direccion": {
    "pais": "Argentina",
@@ -17,7 +17,7 @@
    "ciudad":  "San Martin",
    "calle": "San Martin",
    "numero": 450,
-   "codigo postal": 5570
+   "codigoPostal": 5570
  },
  "estado": "pendiente",
  "total": 35410
