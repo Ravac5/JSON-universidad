@@ -4,9 +4,9 @@
   "edad": 20,
   "activo": true,
   "direccion": {
-    "provincia": "Mendoza",
-    "ciudad": "San Martin",
-    "calle": "Avenida Mitre",
+    "provincia": "Buenos Aires",
+    "ciudad": "La Plata",
+    "calle": "San Martin",
     "numero": 178
   },
   "informacion personal": {
